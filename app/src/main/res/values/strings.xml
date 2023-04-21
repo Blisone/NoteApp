@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Daftar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tasks">Tasks</string>
+    <string name="notes">Notes</string>
+    <string name="add_task">Add Task</string>
+    <string name="you_do_not_have_in_tasks">You do not have any tasks!</string>
+    <string name="your_task_list_is_empty">Your tasks list is empty!!</string>
+    <string name="your_notes_list_is_empty">Your notes list is empty!!</string>
+    <string name="add_note">Add Note</string>
+    <string name="enter_note_description">Enter note description…</string>
+    <string name="enter_note_title">Enter note title</string>
+    <string name="update_note">Update Note</string>
+    <string name="enter_task_title">Enter task title</string>
+    <string name="update_task">Update Task</string>
+    <string name="search_notes">Search notes</string>
+    <string name="sort_notes_by">Sort notes by</string>
+    <string name="priority_high">Priority high</string>
+    <string name="priority_low">Priority low</string>
+    <string name="delete_all">Delete all notes</string>
+    <string name="sort_tasks_by">Sort tasks by</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="delete_all_tasks">Delete all tasks</string>
+    <string name="enter_task_description">Enter task description…</string>
+    <string name="create_reminder">Create Reminder</string>
+    <string name="create_calendar_event">Create Calendar Event</string>
+    <string name="cant_be_empty">Required field</string>
+    <string name="success_add">Successfully added</string>
+    <string name="success_update">Successfully updated</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="create_a_task">Create a task</string>
+    <string name="task_title">Task title</string>
+    <string name="task_priority">Task priority</string>
+    <string name="select_time">Select time</string>
+    <string name="select_date">Select date</string>
+    <string name="get_alert_for_this_task">Get alert for this task</string>
+    <string name="done">Done</string>
+    <string name="task_alert">Task alert</string>
+    <string name="task_description">Task description</string>
+    <string name="date_time_error">Please, enter time and date</string>
+    <string name="invalid_date">Invalid date</string>
+    <string name="task_reminder_body">Your task alert is due to now!!</string>
+    <string name="alarm_set_successfully">Alarm set successfully</string>
+    <string name="separator">/</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="linear_layout">Linear Layout</string>
+
+    <string-array name="priorities">
+        <item>High priority</item>
+        <item>Medium priority</item>
+        <item>Low priority</item>
+    </string-array>
+</resources>

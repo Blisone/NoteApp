@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="1"
+        android:title="@string/search_notes"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:iconTint="@color/title_color"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="@string/grid_layout"
+        android:id="@+id/menu_grid"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_grid_on"
+        app:iconTint="@color/title_color"
+        android:orderInCategory="2"/>
+
+    <item android:title="@string/linear_layout"
+        android:id="@+id/menu_linear"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_linear"
+        app:iconTint="@color/title_color"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/menu_sortBy"
+        android:icon="@drawable/ic_round_sort"
+        android:orderInCategory="4"
+        android:title="@string/sort_tasks_by"
+        app:iconTint="@color/title_color"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_priority_high"
+                android:icon="@drawable/ic_trending_up"
+                android:title="@string/priority_high"
+                app:iconTint="@color/title_color"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/menu_priority_low"
+                android:icon="@drawable/ic_trending_down"
+                android:title="@string/priority_low"
+                app:iconTint="@color/title_color"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/menu_delete_all"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="5"
+        android:title="@string/delete_all_tasks"
+        app:iconTint="@color/title_color"
+        app:showAsAction="never" />
+
+</menu>
